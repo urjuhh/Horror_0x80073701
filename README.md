@@ -1,5 +1,7 @@
 # Horror_0x80073701
-Fixing 0x80073701 with an axe - if you swing it, you are responsible for results... Verify, do not trust.
+Fixing 0x80073701 with an axe - if you swing it, you are responsible for results... Verify, do not trust. 
+
+BACKUP, BACKUP, BACKUP.
 
 C:\Windows\Logs\CBS\CBS.log tells you, whats wrong. For example:
 2025-08-29 09:45:14, Info CBS Failed to pin deployment while resolving Update: Microsoft-Windows-Bitlocker-Network-Unlock-Package~31bf3856ad364e35~amd64~~10.0.20348.2652.BitLocker-NetworkUnlock from file: (null) [HRESULT = 0x80073701 - ERROR_SXS_ASSEMBLY_MISSING]
