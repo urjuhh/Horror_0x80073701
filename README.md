@@ -9,8 +9,10 @@ Thats a reference to already superseded component, that wasn't cleaned up proper
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing\Packages\
 Each component has entry for each version, some "components" are collections/depend on other components.
+```
 Microsoft-Windows-Bitlocker-Network-Unlock-Package~31bf3856ad364e35~amd64~~10.0.20348.2652
 Microsoft-Windows-Bitlocker-Network-Unlock-Package~31bf3856ad364e35~amd64~~10.0.20348.3451
+```
 Get rid of the old, try to update... get new borked component...
 
 So after deleting many keys manually, a pattern emerged. So i had a heart to heart with copilot and came up with a dirty script that looked for superseded component entries in registry.
